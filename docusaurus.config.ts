@@ -15,13 +15,13 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://erasmusegalitarian.github.io',
+  url: 'https://fahnoee.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/educado-docs/',
 
   // GitHub pages deployment config.
-  organizationName: 'ErasmusEgalitarian',
+  organizationName: 'Fahnoee',
   projectName: 'educado-docs',
 
   onBrokenLinks: 'throw',
@@ -55,15 +55,16 @@ const config: Config = {
   ],
 
   plugins: [
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: false,
-        language: ['en'],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-      },
-    ],
+    // Temporarily disabled due to build issues in GitHub Actions
+    // [
+    //   require.resolve('@easyops-cn/docusaurus-search-local'),
+    //   {
+    //     hashed: false,
+    //     language: ['en'],
+    //     highlightSearchTermsOnTargetPage: true,
+    //     explicitSearchResultPath: true,
+    //   },
+    // ],
   ],
 
   themeConfig: {
