@@ -5,6 +5,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+      },
+    ],
+  ],
   title: 'Educado Docs',
   tagline: 'Technical documentation for the mobile education platform',
   favicon: 'img/favicon.ico',
@@ -51,17 +59,6 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
-    ],
-  ],
-
-  plugins: [
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: false,
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-      },
     ],
   ],
 
