@@ -59,7 +59,6 @@ const config: Config = {
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         hashed: false,
-        language: ['en'],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
       },
