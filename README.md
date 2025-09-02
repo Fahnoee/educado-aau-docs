@@ -1,41 +1,53 @@
-# Website
+## Educado Technical Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository contains the documentation site for the **Educado** project. It is built with [Docusaurus](https://docusaurus.io/) and provides guidelines for all teams contributing to the mobile learning platform.
 
-## Installation
-
-```bash
-yarn
-```
-
-## Local Development
+### Installation
 
 ```bash
-yarn start
+npm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+### Local Development
 
 ```bash
-yarn build
+npm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This command starts a local development server and opens a browser window. Most changes are reflected live without restarting the server.
 
-## Deployment
+### Build
+
+```bash
+npm run build
+```
+
+Generates static content in the `build` directory for deployment.
+
+### Documentation Structure
+
+The docs are organised into several sections:
+
+- **Project Overview** – background and project goals
+- **Development Workflow** – task management and GitHub practices
+- **Coding Conventions** – naming and style guidelines
+- **Frontend Development** – React Native standards
+- **Backend Development** – Node.js/Express guidelines
+- **Moodle Integration** – using Moodle as the content platform
+
+### Deployment
 
 Using SSH:
 
 ```bash
-USE_SSH=true yarn deploy
+USE_SSH=true npm run deploy
 ```
 
 Not using SSH:
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+GIT_USER=<Your GitHub username> npm run deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+If you are using GitHub pages for hosting, this command builds the website and pushes to the `gh-pages` branch.
+
