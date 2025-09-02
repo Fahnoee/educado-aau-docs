@@ -42,10 +42,17 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Backend Development', 
+      label: 'Backend Development',
       items: [
         'backend/index',
         'backend/file-structure',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Moodle Integration',
+      items: [
+        'moodle-integration',
       ],
     },
   ],
