@@ -55,16 +55,15 @@ const config: Config = {
   ],
 
   plugins: [
-    // Temporarily disabled due to build issues in GitHub Actions
-    // [
-    //   require.resolve('@easyops-cn/docusaurus-search-local'),
-    //   {
-    //     hashed: false,
-    //     language: ['en'],
-    //     highlightSearchTermsOnTargetPage: true,
-    //     explicitSearchResultPath: true,
-    //   },
-    // ],
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: false,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
   ],
 
   themeConfig: {
