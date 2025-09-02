@@ -15,10 +15,10 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'http://educado-docs.fahnoee.com/',
+  url: 'https://educado-docs.fahnoee.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/educado-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'Fahnoee',
