@@ -70,6 +70,14 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    algolia: {
+      appId: 'EBUDG2T2LU',
+      apiKey: '9eac98f8673db77e7e980ac6e3989c61',
+      indexName: 'educado-docs Crawler',
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
+    },
     navbar: {
       title: 'Educado Docs',
       logo: {
