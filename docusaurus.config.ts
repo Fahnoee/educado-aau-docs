@@ -70,6 +70,12 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {
+        name: 'algolia-site-verification',
+        content: 'C4AC80B89499BD39',
+      },
+    ],
     algolia: {
       appId: 'EBUDG2T2LU',
       apiKey: '9eac98f8673db77e7e980ac6e3989c61',
