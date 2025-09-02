@@ -20,13 +20,14 @@ Use for:
 
 ```
 user-profile.ts
-course-card.tsx
+course-page.tsx
 navigation-header.js
 ```
 
 ### PascalCase
 Use for:
 - Components
+- Component files
 - Providers  
 - Types
 
@@ -48,13 +49,13 @@ const DEFAULT_RETRY_COUNT = 3;
 
 ### snake_case
 Use for:
-- Enums
+- Enums values
 
 ```typescript
-enum user_role {
-  admin = 'admin',
-  student = 'student', 
-  instructor = 'instructor'
+enum UserRole {
+  admin_role = 'admin_role',
+  student_role = 'student_role', 
+  instructor_role = 'instructor_role'
 }
 ```
 
