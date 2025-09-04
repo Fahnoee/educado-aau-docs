@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   organizationName: 'Fahnoee',
-  projectName: 'educado-docs',
+  projectName: 'educado-aau-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
