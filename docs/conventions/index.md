@@ -1,27 +1,25 @@
 # Coding Conventions
 
-This section defines the naming conventions and coding standards used across the Educado project.
+This section defines naming conventions and coding standards for the Educado project.
 
 ## Naming Conventions
 
 ### camelCase
-Use for:
-- Functions
-- Variables
+**Use for:** Functions and variables
 
-```javascript
+```typescript
 const userName = 'john';
 function getUserData() { ... }
 ```
 
-### skewer-case  
+### skewer-case (kebab-case)  
 Use for:
 - File names
 
 ```
 user-profile.ts
 course-page.tsx
-navigation-header.js
+navigation-header.ts
 ```
 
 ### PascalCase
@@ -35,11 +33,13 @@ Use for:
 interface UserProfile { ... }
 const CourseCard = () => { ... }
 class AuthProvider { ... }
+enum ProductType { ... }
 ```
 
 ### SCREAMING_SNAKE_CASE
 Use for:
 - Constants (limits, amounts, etc.)
+- Configuration values
 
 ```typescript
 const MAX_FILE_SIZE = 50; // MB
@@ -61,8 +61,8 @@ enum UserRole {
 
 ## General Guidelines
 
-- Follow existing code patterns in the repository
+- Follow existing repository patterns
 - Use TypeScript for type safety
 - Keep functions small and focused
 - Use descriptive variable names
-- Comment complex logic when necessary
+- Document complex logic with comments

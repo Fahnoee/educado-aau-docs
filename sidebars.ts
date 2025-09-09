@@ -30,6 +30,7 @@ const sidebars: SidebarsConfig = {
       label: 'Coding Conventions',
       items: [
         'conventions/index',
+        'conventions/documentation',
       ],
     },
     {
@@ -46,6 +47,13 @@ const sidebars: SidebarsConfig = {
       items: [
         'backend/index',
         'backend/file-structure',
+      ],
+    },
+    {
+      type: 'category', 
+      label: 'Feature Documentation',
+      items: [
+        'features/index',
       ],
     },
   ],

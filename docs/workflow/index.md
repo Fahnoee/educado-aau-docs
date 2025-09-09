@@ -15,7 +15,7 @@ Use the Trello link provided in the project links for task management.
 4. Label tasks as: `feature`, `bug`, or `chore`
 5. Move to "Done" only when PR is merged
 
-⚠️ **Important**: If you discover potential fixes or bugs, create a bug/chore task in Trello and place it in the "Awaiting" category.
+⚠️ **Important**: If you discover potential fixes or bugs, create a bug/chore task in Trello and place it in the "Awaiting/Inbox" category.
 
 ## Branch Management
 

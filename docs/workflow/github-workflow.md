@@ -7,6 +7,8 @@
 - ✅ **Minimum 2 approvals** required from other groups before merge
 - ✅ **No merge conflicts** allowed
 - ✅ **English descriptions** required with brief explanation of changes
+<!-- TODO: Add link to checklist part of documentation -->
+- ✅ **Pass checklist** created by the Software team in collaboration (link coming soon)
 
 ## PR Description Template
 
@@ -16,12 +18,14 @@
 **PR Name:** User Authentication
 
 **Description:**
+```
 I have implemented:
 - Sessions by storing JWT in a cookie
 - Included token in backend request  
 - Changed the input fields to exclude numbers
 
 I am a bit unsure if the password should have further error messages?
+```
 
 ## Feature Branch Workflow
 

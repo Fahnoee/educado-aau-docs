@@ -27,12 +27,12 @@ The Educado project follows a comprehensive project model focused on educating w
 
 **Core Educational Features:**
 - Educate waste pickers through simple courses
-- Follow WAGC guidelines (low-level smartphones)  
-- User identification (for tracking progress)
-- Certificate page
+- Follow WAGC usability guidelines (low-level smartphones)  
+- User identification (for tracking progress, could be username)
+- Certificate page (for showing proof of course completion)
 
-**Gamification & Engagement:**
-- Design at least 4 types of gamification
+**Gamification & Engagement (Design team):** 
+- Design at least 4 types of gamification 
 - Up-to-date content guide for gamification
 - Duolingo-like approach to courses
 - User progress tracking must be shown
@@ -40,7 +40,7 @@ The Educado project follows a comprehensive project model focused on educating w
 **User Experience:**
 - Simple onboarding/tutorial
 - Implement at least 1 games
-- 3rd party video course platform
+- 3rd party course platform (Moodle)
 
 </div>
 
@@ -126,10 +126,9 @@ The Educado project follows a comprehensive project model focused on educating w
 <div style={{fontSize: '0.9em'}}>
 
 **Quick Wins:**
-- Simple onboarding/tutorial
-- Design 4 types of gamification
-- Up to date content guide
-- User progress tracking
+- Simple onboarding
+- 1 type of gamified course
+- User course progress tracking
 
 </div>
 </div>
@@ -147,10 +146,11 @@ The Educado project follows a comprehensive project model focused on educating w
 <div style={{fontSize: '0.9em'}}>
 
 **Major Projects:**
-- 3rd party video platform integration
-- Implement at least 1 games
+- 3rd party course platform integration (Moodle)
+- Design of least 4 gamified course experiences
 - Duolingo-like approach to courses
 - Access courses offline
+- Text-to-speech for accessibility
 
 </div>
 </div>
@@ -171,7 +171,6 @@ The Educado project follows a comprehensive project model focused on educating w
 - Certificate page
 - User identification for tracking
 - Clear micro interactions
-- Text-to-speech
 
 </div>
 </div>

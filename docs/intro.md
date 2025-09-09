@@ -12,6 +12,8 @@ Educado is a mobile education platform designed specifically for waste pickers (
 - **Frontend GitHub**: [educado-app](https://github.com/ErasmusEgalitarian/educado-app)
 - **Backend GitHub**: [educado-api](https://github.com/ErasmusEgalitarian/educado-api)
 - **Documentation**: [educado-docs](https://erasmusegalitarian.github.io/educado-docs/)
+- **Trello board**: Coming soon
+- **Discord server**: Coming soon
 
 ## Key Constraints
 
@@ -25,6 +27,6 @@ Educado is a mobile education platform designed specifically for waste pickers (
 
 Navigate through the documentation sections to understand:
 - Project workflow and GitHub guidelines
-- Frontend development standards (React Native)
+- Frontend development standards (React Native + Expo)
 - Backend development standards (Node.js + Express)
 - Naming conventions and file structures
