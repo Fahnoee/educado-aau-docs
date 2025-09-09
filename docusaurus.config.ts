@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://fahnoee.github.io',
+  url: 'https://educado-docs.fahnoee.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/educado-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'Fahnoee',
-  projectName: 'educado-docs',
+  projectName: 'educado-aau-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -70,6 +70,20 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {
+        name: 'algolia-site-verification',
+        content: 'C4AC80B89499BD39',
+      },
+    ],
+    algolia: {
+      appId: 'EBUDG2T2LU',
+      apiKey: '9eac98f8673db77e7e980ac6e3989c61',
+      indexName: 'educado-docs Crawler',
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
+    },
     navbar: {
       title: 'Educado Docs',
       logo: {
