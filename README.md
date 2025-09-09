@@ -37,17 +37,5 @@ The docs are organised into several sections:
 
 ### Deployment
 
-Using SSH:
-
-```bash
-USE_SSH=true npm run deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> npm run deploy
-```
-
-If you are using GitHub pages for hosting, this command builds the website and pushes to the `gh-pages` branch.
+Automatically deploys the current main branch and runs tests on pull requests
 
