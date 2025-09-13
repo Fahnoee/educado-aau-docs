@@ -4,20 +4,21 @@ The backend follows MVC (Model-View-Controller) architecture for scalable and ma
 
 ```
 educado-api/
-├── models/
-│   ├── user.model.ts
-├── routes/
-│   └── user/
-│       ├── user-auth.ts
-│       └── user.ts (Router initialization)
-├── types/
-│   └── type-group/
-│       └── user.ts
-├── utils/
-│   └── authenticate-token.ts
-├── constants/
-├── .env
-└── index.ts (Entry point)
+├── src/
+│   ├── models/
+│   │   └── user.model.ts
+│   ├── routes/
+│   │   └── user/
+│   │       ├── user-auth.ts
+│   │       └── user.ts
+│   ├── types/
+│   │   └── type-group/
+│   │       └── user.ts
+│   ├── utils/
+│   │   └── authenticate-token.ts
+│   ├── constants/
+│   └── index.ts
+└── .env
 ```
 
 ## Directory Breakdown
