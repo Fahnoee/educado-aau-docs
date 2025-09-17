@@ -8,7 +8,8 @@ Educado is a mobile education platform designed specifically for waste pickers (
 
 ## Important Links
 
-- **Figma Design**: [Mobile Education UI](https://www.figma.com/design/BCEVQYvMDrcBE9qqehr9HL/Mobile-Education-UI?node-id=8317-5085&p=f&t=cxNftnqrC0eM1STK-0)
+- **Figma Design Web**: [Educado Web](https://www.figma.com/design/BCEVQYvMDrcBE9qqehr9HL/Mobile-Education-UI?node-id=8347-7848&t=nzeoLWiCKddzo29A-1)
+- **Figma Design Mobile**: [Educado Mobile](https://www.figma.com/design/BCEVQYvMDrcBE9qqehr9HL/Mobile-Education-UI?node-id=1-2&t=nzeoLWiCKddzo29A-1)
 - **Frontend GitHub**: [educado-app](https://github.com/ErasmusEgalitarian/educado-app)
 - **Backend GitHub**: [educado-api](https://github.com/ErasmusEgalitarian/educado-api)
 - **Documentation**: [educado-docs](https://erasmusegalitarian.github.io/educado-docs/)
